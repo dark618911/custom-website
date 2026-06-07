@@ -1,0 +1,1206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050505;
+    color:#f5f5f5;
+    font-family:'Inter',sans-serif;
+    line-height:1.8;
+}
+
+/* NAVBAR */
+
+header{
+    padding:30px 10%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-family:'Pirata One',cursive;
+    font-size:2rem;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#7dd3fc;
+}
+
+/* HERO */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0 10%;
+}
+
+.hero h1{
+    font-family:'Pirata One',cursive;
+    font-size:7rem;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    color:#b0b0b0;
+}
+
+.description{
+    max-width:650px;
+    margin-top:20px;
+    color:#cfcfcf;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 28px;
+    border:2px solid white;
+    text-decoration:none;
+    color:white;
+    width:fit-content;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+}
+
+/* ART */
+
+.art-section{
+    display:flex;
+    justify-content:center;
+    margin-bottom:120px;
+}
+
+.art{
+    font-size:6rem;
+    opacity:.6;
+}
+
+/* SECTIONS */
+
+section{
+    padding:100px 10%;
+}
+
+h2{
+    font-family:'Pirata One',cursive;
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+/* PROJECTS */
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#0e0e0e;
+    border:1px solid #202020;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#7dd3fc;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+/* ABOUT */
+
+.about p{
+    max-width:700px;
+}
+
+.skills{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skills span{
+    border:1px solid #333;
+    padding:10px 18px;
+    border-radius:30px;
+}
+
+/* CONTACT */
+
+.contact p{
+    margin-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:40px;
+    border-top:1px solid #222;
+    color:#888;*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050505;
+    color:#f5f5f5;
+    font-family:'Inter',sans-serif;
+    line-height:1.8;
+}
+
+/* NAVBAR */
+
+header{
+    padding:30px 10%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-family:'Pirata One',cursive;
+    font-size:2rem;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#7dd3fc;
+}
+
+/* HERO */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0 10%;
+}
+
+.hero h1{
+    font-family:'Pirata One',cursive;
+    font-size:7rem;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    color:#b0b0b0;
+}
+
+.description{
+    max-width:650px;
+    margin-top:20px;
+    color:#cfcfcf;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 28px;
+    border:2px solid white;
+    text-decoration:none;
+    color:white;
+    width:fit-content;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+}
+
+/* ART */
+
+.art-section{
+    display:flex;
+    justify-content:center;
+    margin-bottom:120px;
+}
+
+.art{
+    font-size:6rem;
+    opacity:.6;
+}
+
+/* SECTIONS */
+
+section{
+    padding:100px 10%;
+}
+
+h2{
+    font-family:'Pirata One',cursive;
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+/* PROJECTS */
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#0e0e0e;
+    border:1px solid #202020;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#7dd3fc;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+/* ABOUT */
+
+.about p{
+    max-width:700px;
+}
+
+.skills{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skills span{
+    border:1px solid #333;
+    padding:10px 18px;
+    border-radius:30px;
+}
+
+/* CONTACT */
+
+.contact p{
+    margin-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:40px;
+    border-top:1px solid #222;
+    color:#888;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:4rem;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        gap:15px;
+    }
+
+    h2{
+        font-size:2.2rem;
+    }
+}*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050505;
+    color:#f5f5f5;
+    font-family:'Inter',sans-serif;
+    line-height:1.8;
+}
+
+/* NAVBAR */
+
+header{
+    padding:30px 10%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-family:'Pirata One',cursive;
+    font-size:2rem;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#7dd3fc;
+}
+
+/* HERO */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0 10%;
+}
+
+.hero h1{
+    font-family:'Pirata One',cursive;
+    font-size:7rem;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    color:#b0b0b0;
+}
+
+.description{
+    max-width:650px;
+    margin-top:20px;
+    color:#cfcfcf;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 28px;
+    border:2px solid white;
+    text-decoration:none;
+    color:white;
+    width:fit-content;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+}
+
+/* ART */
+
+.art-section{
+    display:flex;
+    justify-content:center;
+    margin-bottom:120px;
+}
+
+.art{
+    font-size:6rem;
+    opacity:.6;
+}
+
+/* SECTIONS */
+
+section{
+    padding:100px 10%;
+}
+
+h2{
+    font-family:'Pirata One',cursive;
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+/* PROJECTS */
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#0e0e0e;
+    border:1px solid #202020;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#7dd3fc;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+/* ABOUT */
+
+.about p{
+    max-width:700px;
+}
+
+.skills{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skills span{
+    border:1px solid #333;
+    padding:10px 18px;
+    border-radius:30px;
+}
+
+/* CONTACT */
+
+.contact p{
+    margin-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:40px;
+    border-top:1px solid #222;
+    color:#888;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:4rem;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        gap:15px;
+    }
+
+    h2{
+        font-size:2.2rem;
+    }
+}*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050505;
+    color:#f5f5f5;
+    font-family:'Inter',sans-serif;
+    line-height:1.8;
+}
+
+/* NAVBAR */
+
+header{
+    padding:30px 10%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-family:'Pirata One',cursive;
+    font-size:2rem;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#7dd3fc;
+}
+
+/* HERO */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0 10%;
+}
+
+.hero h1{
+    font-family:'Pirata One',cursive;
+    font-size:7rem;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    color:#b0b0b0;
+}
+
+.description{
+    max-width:650px;
+    margin-top:20px;
+    color:#cfcfcf;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 28px;
+    border:2px solid white;
+    text-decoration:none;
+    color:white;
+    width:fit-content;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+}
+
+/* ART */
+
+.art-section{
+    display:flex;
+    justify-content:center;
+    margin-bottom:120px;
+}
+
+.art{
+    font-size:6rem;
+    opacity:.6;
+}
+
+/* SECTIONS */
+
+section{
+    padding:100px 10%;
+}
+
+h2{
+    font-family:'Pirata One',cursive;
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+/* PROJECTS */
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#0e0e0e;
+    border:1px solid #202020;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#7dd3fc;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+/* ABOUT */
+
+.about p{
+    max-width:700px;
+}
+
+.skills{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skills span{
+    border:1px solid #333;
+    padding:10px 18px;
+    border-radius:30px;
+}
+
+/* CONTACT */
+
+.contact p{
+    margin-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:40px;
+    border-top:1px solid #222;
+    color:#888;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:4rem;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        gap:15px;
+    }
+
+    h2{
+        font-size:2.2rem;
+    }
+}*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050505;
+    color:#f5f5f5;
+    font-family:'Inter',sans-serif;
+    line-height:1.8;
+}
+
+/* NAVBAR */
+
+header{
+    padding:30px 10%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-family:'Pirata One',cursive;
+    font-size:2rem;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#7dd3fc;
+}
+
+/* HERO */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0 10%;
+}
+
+.hero h1{
+    font-family:'Pirata One',cursive;
+    font-size:7rem;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    color:#b0b0b0;
+}
+
+.description{
+    max-width:650px;
+    margin-top:20px;
+    color:#cfcfcf;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 28px;
+    border:2px solid white;
+    text-decoration:none;
+    color:white;
+    width:fit-content;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+}
+
+/* ART */
+
+.art-section{
+    display:flex;
+    justify-content:center;
+    margin-bottom:120px;
+}
+
+.art{
+    font-size:6rem;
+    opacity:.6;
+}
+
+/* SECTIONS */
+
+section{
+    padding:100px 10%;
+}
+
+h2{
+    font-family:'Pirata One',cursive;
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+/* PROJECTS */
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#0e0e0e;
+    border:1px solid #202020;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#7dd3fc;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+/* ABOUT */
+
+.about p{
+    max-width:700px;
+}
+
+.skills{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skills span{
+    border:1px solid #333;
+    padding:10px 18px;
+    border-radius:30px;
+}
+
+/* CONTACT */
+
+.contact p{
+    margin-bottom:15px;
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:40px;
+    border-top:1px solid #222;
+    color:#888;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:4rem;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        gap:15px;
+    }
+
+    h2{
+        font-size:2.2rem;
+    }
+}*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#050505;
+    color:#f5f5f5;
+    font-family:'Inter',sans-serif;
+    line-height:1.8;
+}
+
+/* NAVBAR */
+
+header{
+    padding:30px 10%;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-family:'Pirata One',cursive;
+    font-size:2rem;
+}
+
+nav ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#7dd3fc;
+}
+
+/* HERO */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:0 10%;
+}
+
+.hero h1{
+    font-family:'Pirata One',cursive;
+    font-size:7rem;
+    line-height:1;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.2rem;
+    color:#b0b0b0;
+}
+
+.description{
+    max-width:650px;
+    margin-top:20px;
+    color:#cfcfcf;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:35px;
+    padding:14px 28px;
+    border:2px solid white;
+    text-decoration:none;
+    color:white;
+    width:fit-content;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:white;
+    color:black;
+}
+
+/* ART */
+
+.hero-image{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+}
+
+.hero-image img{
+    width:300px;
+    max-width:100%;
+    border-radius:20px;
+    box-shadow:0 0 30px rgba(120,180,255,.3);
+    transition:0.3s;
+}
+
+.hero-image img:hover{
+    transform:scale(1.03);
+}
+
+/* SECTIONS */
+
+section{
+    padding:100px 10%;
+}
+
+h2{
+    font-family:'Pirata One',cursive;
+    font-size:3rem;
+    margin-bottom:40px;
+}
+
+/* PROJECTS */
+
+.project-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#0e0e0e;
+    border:1px solid #202020;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    border-color:#7dd3fc;
+}
+
+.card h3{
+    margin-bottom:15px;
+}
+
+/* ABOUT */
+
+.about p{
+    max-width:700px;
+}
+
+.skills{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.skills span{
+    border:1px solid #333;
+    padding:10px 18px;
+    border-radius:30px;
+}
+
+/* CONTACT */
+
+.contact p{
+    margin-bottom:15px;
+}
+.socials{
+    display:flex;
+    gap:25px;
+    margin-top:25px;
+}
+
+.socials a{
+    color:#8ef5ff;
+    font-size:4rem;
+    transition:0.3s;
+}
+
+.socials a:hover{
+    color:white;
+    transform:translateY(-5px);
+    text-shadow:0 0 15px #8ef5ff;
+}
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:40px;
+    border-top:1px solid #222;
+    color:#888;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:4rem;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        gap:15px;
+    }
+
+    h2{
+        font-size:2.2rem;
+    }
+}
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:4rem;
+    }
+
+    nav{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    nav ul{
+        gap:15px;
+    }
+
+    h2{
+        font-size:2.2rem;
+    }
+}
