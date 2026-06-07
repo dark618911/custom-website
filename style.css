@@ -137,12 +137,7 @@ h2{
     font-size:4rem;
 }
 
-footer{
-    text-align:center;
-    padding:40px;
-    border-top:1px solid #222;
-    color:#888;
-}
+
 
 @media(max-width:768px){
 
